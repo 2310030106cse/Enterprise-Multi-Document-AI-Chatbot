@@ -1,0 +1,49 @@
+<svg width="680" height="420" viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Project folder structure</title>
+<desc>Structural diagram showing api, frontend, data, and src folders and their key files</desc>
+<rect width="680" height="420" fill="#ffffff"/>
+
+<rect x="40" y="30" width="600" height="360" rx="20" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="60" y="58" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">Enterprise-Multi-Document-AI-Chatbot</text>
+
+<rect x="70" y="80" width="160" height="70" rx="12" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="90" y="102" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#0C447C">api/</text>
+<text x="90" y="120" font-family="Arial, sans-serif" font-size="12" fill="#185FA5">routes.py</text>
+<text x="90" y="136" font-family="Arial, sans-serif" font-size="12" fill="#185FA5">FastAPI endpoints</text>
+
+<rect x="260" y="80" width="160" height="70" rx="12" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="280" y="102" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#3C3489">frontend/</text>
+<text x="280" y="120" font-family="Arial, sans-serif" font-size="12" fill="#534AB7">streamlit_app.py</text>
+<text x="280" y="136" font-family="Arial, sans-serif" font-size="12" fill="#534AB7">Chat UI</text>
+
+<rect x="450" y="80" width="160" height="70" rx="12" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<text x="470" y="102" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#2C2C2A">data/</text>
+<text x="470" y="120" font-family="Arial, sans-serif" font-size="12" fill="#5F5E5A">faiss_index/</text>
+<text x="470" y="136" font-family="Arial, sans-serif" font-size="12" fill="#5F5E5A">Vector store (git-ignored)</text>
+
+<rect x="70" y="170" width="540" height="200" rx="12" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="90" y="196" font-family="Arial, sans-serif" font-size="14" font-weight="500" fill="#085041">src/  — core RAG pipeline</text>
+
+<rect x="90" y="212" width="150" height="34" rx="6" fill="#ffffff" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="165" y="229" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">pdf/docx/txt_loader.py</text>
+
+<rect x="255" y="212" width="150" height="34" rx="6" fill="#ffffff" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="330" y="229" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">text_splitter.py</text>
+
+<rect x="420" y="212" width="170" height="34" rx="6" fill="#ffffff" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="505" y="229" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">embeddings.py</text>
+
+<rect x="90" y="258" width="150" height="34" rx="6" fill="#ffffff" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="165" y="275" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">vector_store.py</text>
+
+<rect x="255" y="258" width="150" height="34" rx="6" fill="#ffffff" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="330" y="275" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">prompts.py</text>
+
+<rect x="420" y="258" width="170" height="34" rx="6" fill="#ffffff" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="505" y="275" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">rag.py</text>
+
+<rect x="90" y="304" width="480" height="34" rx="6" fill="#ffffff" stroke="#B4B2A9" stroke-width="0.5"/>
+<text x="330" y="321" text-anchor="middle" dominant-baseline="central" font-family="Arial, sans-serif" font-size="12" fill="#2C2C2A">chatbot.py — ties every module together</text>
+
+<text x="90" y="356" font-family="Arial, sans-serif" font-size="12" fill="#0F6E56">requirements.txt · .gitignore · README.md sit at the project root</text>
+</svg>
