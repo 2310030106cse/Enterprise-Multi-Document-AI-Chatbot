@@ -1,4 +1,4 @@
-# 📚 Enterprise Multi-Document AI Chatbot
+#  Enterprise Multi-Document AI Chatbot
 
 A retrieval-augmented generation (RAG) chatbot that answers questions grounded in your own PDF, DOCX, and TXT files — fully local, no paid API keys required.
 
